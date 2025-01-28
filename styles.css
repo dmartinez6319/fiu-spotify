@@ -1,0 +1,29 @@
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.title {
+    color: #1ED760;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 150px;
+}
+
+.info-section > h2 {
+    font-size: 1.8rem;
+}
+
+.info-section > p, li {
+    color: #B3b3b3;
+}
+
+.info-section ul {
+    list-style: none;
+}
