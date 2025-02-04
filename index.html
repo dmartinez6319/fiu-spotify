@@ -6,6 +6,9 @@
     <title>Spotify Visualizer</title>
     <link rel = "stylesheet" href="styles.css">
     <link rel = "icon" href = "https://banner2.cleanpng.com/20190414/wia/kisspng-spotify-portable-network-graphics-clip-art-compute-1713898505536.webp">
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
     <header>
@@ -15,12 +18,12 @@
         <section>
 
         <div class="info-section">
-            <div class = "about-section">
+            <div class = "about-section info-container">
                 <h2>About</h2>
                 <p>Welcome to the <b>Spotify Data Visualizer</b> This project takes a large data set of stuff 
                     and organizes it into categories you can select</p>
-                </div>
-                    <div>
+            </div>
+                    <div class = "visual-section info-container">
                 <h2>Visualizations</h2>
                 <ul class = "visual-list">
                     <li>Most Common Genre (Bar Graph)</li>
@@ -37,11 +40,11 @@
                 <h2 class = "result-title">Result</h2>
                 <div class = "btn-container">
                     <button class = "result-btn" id = "genre-btn">Most Common Genre</button>
-                    <button class = "result-btn" id = "average-btn">Average Year Song Released</button>
+                    <button class = "result-btn" id = "average-btn">Year Song Released</button>
                     <button class = "result-btn" id = "loudest-btn">Loudest Song</button>
                 </div>
 
-                <div class = "result-card">
+                <div class = "result-card" id = "result-card">
                     <div>
                         <p class = "result-intro-text">Select a category and chart type to visualize data.</p>
                     </div>

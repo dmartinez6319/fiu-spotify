@@ -24,6 +24,7 @@ img {
     width: 150px;
 }
 
+
 .info-section > h2 {
     font-size: 1.8rem;
 }
@@ -34,6 +35,15 @@ img {
 
 .info-section ul {
     list-style: disc;
+}
+
+.info-container {
+    background-color: rgb(50, 50, 50);
+    padding: 1rem;
+    border-radius: .5rem;
+    min-height: 150px;
+    flex-grow: 1;
+
 }
 
 header {
