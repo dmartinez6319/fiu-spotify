@@ -2,6 +2,14 @@
     font-family: sans-serif;
 }
 
+* {
+    /* outline: 1px solid red; */
+}
+
+html {
+    margin: 0;
+}
+
 body {
     background-color: #121212;
     color: white;
@@ -27,3 +35,56 @@ img {
 .info-section ul {
     list-style: none;
 }
+
+/* header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > img {
+    width: 150px;
+    height: 50px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    margin-left: -8px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+footer > ul > li {
+    padding: 2rem;
+    all: unset;
+}
+
+footer > ul > li > a{
+    all: unset;
+    cursor: pointer;
+}
+
+footer > ul > li:hover{
+    background-color: white;
+    color: black;
+} */

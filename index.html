@@ -15,12 +15,14 @@
         <section>
 
         <div class="info-section">
+            <div class = "about-section">
                 <h2>About</h2>
                 <p>Welcome to the <b>Spotify Data Visualizer</b> This project takes a large data set of stuff 
                     and organizes it into categories you can select</p>
-            <div>
+                </div>
+                    <div>
                 <h2>Visualizations</h2>
-                <ul>
+                <ul class = "visual-list">
                     <li>Most Common Genre (Bar Graph)</li>
                     <li>Most average Year Song Releases (Pie Chart)</li>
                     <li>Loudest song in Decibles (Linear Graph)</li>
@@ -29,6 +31,25 @@
         </div>
 
         </section>
+
+        <section class = "result-section">
+            <div class = "result-container">
+                <h2 class = "result-title">Result</h2>
+                <div class = "btn-container">
+                    <button class = "result-btn" id = "genre-btn">Most Common Genre</button>
+                    <button class = "result-btn" id = "average-btn">Average Year Song Released</button>
+                    <button class = "result-btn" id = "loudest-btn">Loudest Song</button>
+                </div>
+
+                <div class = "result-card">
+                    <div>
+                        <p class = "result-intro-text">Select a category and chart type to visualize data.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
     <footer>
         <ul>
             <li><a href="https://google.com" target="_blank">LinkedIn</a></li>
