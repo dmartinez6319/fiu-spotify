@@ -50,7 +50,7 @@ for (const song of songList) {
             datasets: [{
                 label: 'Number of Songs',
                 data: data,
-                backgroundColor: 'rgba(35, 255, 64, 0.8)',
+                backgroundColor: 'rgba(35, 222, 255, 0.8)',
                 borderColor: 'rgb(0, 0, 0)',
                 borderWidth: 1
             }]
@@ -90,9 +90,9 @@ function createYearChart() {
                 label: 'Number of Songs by Year',
                 data: data,
                 backgroundColor: [
-                    'rgb(23, 255, 23)',
-                    'rgb(4, 83, 8)',
-                    'rgb(12, 207, 29)'
+                    'rgb(23, 162, 255)',
+                    'rgb(4, 58, 83)',
+                    'rgb(12, 119, 207)'
                 ],
                 hoverOffset: 4
             }]
@@ -135,7 +135,7 @@ function createLoudestSongChart() {
               label: 'Loudest Song',
               data: data,
               fill: false,
-              borderColor: 'rgb(5, 255, 5)',
+              borderColor: 'rgb(30, 5, 255)',
               tension: 0.1
             }]
         },
