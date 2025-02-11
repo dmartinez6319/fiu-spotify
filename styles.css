@@ -103,6 +103,12 @@ header > img {
 
 }
 
+.search-input {
+    border: unset;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+
 footer {
     position: fixed;
     bottom: 0%;
